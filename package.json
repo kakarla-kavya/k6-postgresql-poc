@@ -1,5 +1,5 @@
 {
-  "name": "k6-postgresql",
+  "name": "k6-postgresql-poc",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "db_test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./k6 run"
   },
   "keywords": []
 }
